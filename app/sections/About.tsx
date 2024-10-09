@@ -11,7 +11,7 @@ const About = () => {
         >
             <div className="mx-auto flex w-[90%] flex-col items-center justify-center lg:max-w-[1212.8px]">
                 <AnimatedTitle
-                    text={"Transforming Ideas into Products Since 2018"}
+                    text={"Transforming Ideas into Products Since 2021"}
                     className={
                         "mb-10 text-left text-[40px] font-bold leading-[0.9em] tracking-tighter text-[#e4ded7] sm:text-[45px] md:mb-16 md:text-[60px] lg:text-[80px]"
                     }
@@ -21,7 +21,7 @@ const About = () => {
 
                 <div className="mx-auto flex w-[100%] flex-col lg:max-w-[1200px] lg:flex-row lg:gap-20">
                     <div className="mb-10 flex w-[100%] flex-col gap-4 text-[18px] font-medium  leading-relaxed tracking-wide text-[#e4ded7] md:mb-16 md:gap-6 md:text-[20px] md:leading-relaxed lg:mb-16  lg:max-w-[90%] lg:text-[24px] ">
-                        <AnimatedBody text="My expertise lies in crafting software solutions that seamlessly blend aesthetics with functionality. With over 6 years of experience in software engineering, I have recently delved deeper into programming, broadening my skill set." />
+                        <AnimatedBody text="My expertise lies in crafting software solutions that seamlessly blend aesthetics with functionality. With over 3+ years of experience in software engineering, I have recently delved deeper into programming, broadening my skill set." />
 
                         <AnimatedBody
                             delay={0.1}

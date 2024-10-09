@@ -1,5 +1,5 @@
 "use client";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { ScrollerMotion } from "scroller-motion";
 import { useEffectOnce, useEventListener } from 'usehooks-ts';
 
@@ -68,11 +68,11 @@ export default function Home() {
             <main
                 className="flex flex-col items-center justify-center bg-black"
             >
-                <Hero />
+                {/* <Hero /> */}
                 <About />
                 <Work />
                 <Tools />
-                { /* <Blog /> TODO: Low Priority */ }
+                { /* <Blog /> TODO: Low Priority */}
                 <Contact />
                 <Footer />
             </main>

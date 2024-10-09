@@ -10,23 +10,22 @@ const syne = Syne({
 });
 
 export const metadata: Metadata = {
-    metadataBase: new URL("https://www.seekvisualartist.com/"),
-    title: "Seek Visual Artist",
+    metadataBase: new URL("https://www.usamarashid.com/"),
+    title: "Usama Rashid's portfolio",
     description:
-    "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
+        "Software Engineer, currently working at Devsinc. Focused on immersive experiences and building scalable solutions.",
     generator: "Next.js",
-    applicationName: "Seek Visual Artist",
+    applicationName: "Usama Rashid's portfolio",
     keywords: [
-        "Seek Visual Artist",
-        "SeekVA",
-        "Seek Design",
-        "Seek Visuals",
+        "Usama Rashid's portfolio",
+        "Usama Rashid",
+        "Software Engineer",
+        "Blockchain",
         "freelance",
         "developer",
         "freelance developer",
         "frontend",
         "nextjs",
-        "astro",
         "react",
         "frontend developer",
         "frontend engineer",
@@ -35,6 +34,11 @@ export const metadata: Metadata = {
         "creative engineer",
         "tech",
         "germany",
+        "united states",
+        "united states of america",
+        "dubai",
+        "hamburg",
+        "software engineer",
         "software",
         "software developer",
         "portfolio",
@@ -46,17 +50,17 @@ export const metadata: Metadata = {
     ],
     colorScheme: "dark",
     openGraph: {
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Usama Rashid - Software Engineer",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        url: "https://www.seekvisualartist.com/",
-        siteName: "www.seekvisualartist.com",
+            "Software Engineer, currently working at Devsinc. Focused on immersive experiences and building scalable solutions.",
+        url: "https://usamarashid.vercel.app/",
+        siteName: "https://usamarashid.vercel.app/",
         images: [
             {
                 url: "./public/metadata.jpg",
                 width: 1200,
                 height: 630,
-                alt: "Seek Visual Artist - Designer and Developer",
+                alt: "Usana Rashid - Software Engineer and Developer",
             },
         ],
         locale: "en-US",
@@ -64,10 +68,10 @@ export const metadata: Metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Seek Visual Artist - Designer and Developer",
+        title: "Usama Rashid - Software Engineer",
         description:
-      "Hobby Designer and Software Engineer, currently at Neumann Kaffee Gruppe. Focused on immersive experiences, studying in Hamburg, Germany.",
-        creator: "SeekVFX",
+            "Software Engineer, currently working at Devsinc. Focused on immersive experiences and building scalable solutions.",
+        creator: "Usama Rashid Butt",
         creatorId: "0000000000",
         images: ["./public/metadata.jpg"],
     },
@@ -88,7 +92,7 @@ export const metadata: Metadata = {
 };
 
 type RootLayoutProps = {
-  children: ReactNode;
+    children: ReactNode;
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {

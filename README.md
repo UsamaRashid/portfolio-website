@@ -1,4 +1,4 @@
-# Portfolio v1
+# Portfolio
 
 This is my portfolio website. It is built with Next.js, React and Tailwind CSS.
 
